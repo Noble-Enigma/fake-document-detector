@@ -1,2 +1,3 @@
 # fake-document-detector
-Document authenticity detector using OpenCV Tesseract OCR deep learning. Detects fake documents by analyzing text, templates, artifacts, and image features.
+  A tool for detecting document authenticity using OpenCV for image processing, Tesseract OCR for text recognition,
+    and PyTorch for deep learning-based machine learning classification. The Repository Focused on Using existing AI Libraries to recognize innaccuracies and imperfections in various documents such as ID or a Driving License, to Detect A Fake and sloppy Document. 
