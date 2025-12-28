@@ -5,9 +5,10 @@ import pytesseract
 # pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 # Load an image (e.g., scanned ID or document photo)
-img = Image.open("/Users/bekezhanelbrusov/PyCharmMiscProject/OpenCV_Projects/KindTexts.jpeg")
+img = Image.open("data/real/sample.jpg")
 
-img = Image.open("/Users/bekezhanelbrusov/PyCharmMiscProject/OpenCV_Projects/KindTexts.jpeg")
+img = Image.open("data/real/sample.jpg") 
+
 img = img.convert("L")  # Grayscale
 img = ImageEnhance.Contrast(img).enhance(2)  # Boost contrast
 img = img.filter(ImageFilter.SHARPEN)
